@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Crystal☆Collector</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+</head>
+
+<body>
+
+    <img id="header-image" src="assets/images/header.png" />
+
+    <div id="rules-box">
+        <img id="rules-image" src="assets/images/rules.png" />
+
+        <p class="instructions">
+            <br> At the start of each game, you will be given a random number of crystals (or gems) to collect.
+            <br>
+            <br> Below are four crystals. Each crystal gives a random number of points.
+            <br>
+            <br> The objective is to collect enough crystals so 'Your Score' is exactly the same as the amount you need to collect. 
+            <br>
+            <br> You win the game when 'Your Score' equals the crystals to collect.
+            <br>
+            <br> You lose the game if 'Your Score' goes above the amount of crystals to collect.
+            <br>
+            <br> NOTE:<br> The number of points each crystal gives changes with each new game you play!
+            <br>
+            <br>
+        </p>
+    </div>
+
+    <div class="col-md-4 game-status">
+
+            <h3>Collect <span id="crystalsToCollect"></span> Crystals</h3>
+
+            <h3>Your Score:</h3>
+            <h5 id="playerScore"></h5>
+
+            <br>
+
+            <h4>Wins: <span id="totalWins"></span></h4>
+
+            <h4>Losses: <span id="totalLosses"></span></h4>
+
+
+    </div>
+
+    <div class="col-md-4">
+
+    </div>
+
+    <div class="col-md-4 gems">
+
+        <h3>Crystal Gallery</h3>
+        <hr>
+
+        <img class="gem-class" id="gem1" src="assets/images/lovegem.png" height="50" width="50" />
+        <img class="gem-class" id="gem2" src="assets/images/stargem.png" height="50" width="50" />
+        <img class="gem-class" id="gem3" src="assets/images/dias.png" height="50" width="50" />
+        <img class="gem-class" id="gem4" src="assets/images/starjewel.png" height="50" width="50" />
+
+    </div>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
+	<script type="text/javascript" src="assets/javascript/game.js"></script>
+
+
+</body>
+
+</html>

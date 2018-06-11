@@ -1,0 +1,54 @@
+body {
+    background-color: blue;
+}
+
+#header-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
+    margin-bottom: -50px;
+}
+
+.gems {
+   text-align: center;
+}
+
+h3, h4, h5 {
+    color: white;
+}
+
+#rules-box {
+    text-align: center;
+}
+
+p.instructions {
+   font-family: Georgia;
+   color: white;
+   margin-top: 2px;
+   line-height: 15px;
+}
+
+#rules-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%; 
+}
+
+.game-status {
+    text-align: center;
+}
+
+.game-status h4:first-of-type {
+    float: left;
+
+}
+
+.game-status h4:last-of-type {
+    float: right;
+}
+
+#crystalsToCollect, #playerScore, #totalWins, #totalLosses {
+    color: rgb(126, 187, 240);
+}
