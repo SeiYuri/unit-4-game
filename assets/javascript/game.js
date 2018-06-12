@@ -1,3 +1,5 @@
+// --- Psuedocode Starts Here! --- //
+
 // Generate a random number to be used as the target score -- (crystals to collect). Math.floor(Math.random() * 120) + 19; 
 // Remember, you must "append" the variable that stores the random numbers to the ID "crystalsToCollect". 
 
@@ -14,6 +16,8 @@
 
 // Set a boolean for gameOver. If false, the user keeps playing. If true, reset the game. Create a function that starts a new game and sets everything
 //(except wins and losses) to zero.
+
+// --- Psuedocode Ends Here! --- // 
 
 
 // ---- Use this function to ensure the entire page loads first before the game starts. ----- // 
